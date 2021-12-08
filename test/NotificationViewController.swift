@@ -16,7 +16,7 @@ class NotificationViewController: UIViewController, UNNotificationContentExtensi
     @IBOutlet weak var textLabel: UILabel!
     @IBOutlet var myLabel: UIView!
     
-    var mytext = "Lets see if it will work now?"
+    var mytext = "snooze remaining"
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any required interface initialization here.
