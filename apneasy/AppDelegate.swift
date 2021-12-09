@@ -17,7 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let center = UNUserNotificationCenter.current()
         center.requestAuthorization(options: [.alert, .sound]) { _, _ in }
         
-        let testNotificationCategory = UNNotificationCategory(identifier: "clevertapnotification", actions: [], intentIdentifiers: [], options: [])
+        
+        let stopAction = UNNotificationAction(identifier: "stop-action", title: "Stop", options: [])
+        
+        
+        let testNotificationCategory = UNNotificationCategory(identifier: "clevertapnotification", actions: [stopAction], intentIdentifiers: [], options: [])
         UNUserNotificationCenter.current().setNotificationCategories([testNotificationCategory])
         return true
         
