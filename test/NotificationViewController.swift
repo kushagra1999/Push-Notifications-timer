@@ -11,7 +11,7 @@ import UserNotificationsUI
 
 class NotificationViewController: UIViewController, UNNotificationContentExtension {
 
-    @IBOutlet var label: UILabel?
+    @IBOutlet var label: UILabel!
     
     @IBOutlet weak var textLabel: UILabel!
     @IBOutlet var myLabel: UIView!
@@ -24,7 +24,23 @@ class NotificationViewController: UIViewController, UNNotificationContentExtensi
     }
     
     func didReceive(_ notification: UNNotification) {
-        self.label?.text = notification.request.content.body
+        self.label?.text = notification.request.content.title
+        
+        if let dict = notification.request.content.userInfo as? [String:Any] {
+                  if let dataDict = dict["Employee"] as? [String:Any],let type = dataDict["Name"] as? String{
+                      self.label?.text = type
+                  }
+              }
+//                if let name = userInfo["name"] as? String {
+//                    print("Custom data received: \(name)")
+//
+//                }
+//        self.label?.text = name as? String
+//        if let notificationData = notification.request.content.userInfo as? [AnyHashable: Any] {
+//
+//            self.label.text = notificationData["name"] as! String
+//                    // Grab the attachment
+//                    }
         
          }
 

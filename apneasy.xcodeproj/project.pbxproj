@@ -18,6 +18,7 @@
 		0B283C44276091FA00CACF12 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B283C43276091FA00CACF12 /* NotificationViewController.swift */; };
 		0B283C47276091FA00CACF12 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B283C45276091FA00CACF12 /* MainInterface.storyboard */; };
 		0B283C4B276091FA00CACF12 /* test.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0B283C3C276091FA00CACF12 /* test.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0B76F06227627C6A001B4C48 /* payload 2.apns in Resources */ = {isa = PBXBuildFile; fileRef = 0B76F06127627C6A001B4C48 /* payload 2.apns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		0B283C43276091FA00CACF12 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		0B283C46276091FA00CACF12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		0B283C48276091FA00CACF12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B76F06127627C6A001B4C48 /* payload 2.apns */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "payload 2.apns"; path = "../../payload 2.apns"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				0B283C3727607E2200CACF12 /* apneasy.entitlements */,
 				0B283C2327607DE900CACF12 /* AppDelegate.swift */,
 				0B283C2527607DE900CACF12 /* SceneDelegate.swift */,
+				0B76F06127627C6A001B4C48 /* payload 2.apns */,
 				0B283C2727607DE900CACF12 /* ViewController.swift */,
 				0B283C2927607DE900CACF12 /* Main.storyboard */,
 				0B283C2C27607DEB00CACF12 /* Assets.xcassets */,
@@ -218,6 +221,7 @@
 			files = (
 				0B283C3027607DEB00CACF12 /* LaunchScreen.storyboard in Resources */,
 				0B283C2D27607DEB00CACF12 /* Assets.xcassets in Resources */,
+				0B76F06227627C6A001B4C48 /* payload 2.apns in Resources */,
 				0B283C2B27607DE900CACF12 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
