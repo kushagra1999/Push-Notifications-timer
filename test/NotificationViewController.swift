@@ -30,7 +30,11 @@ class NotificationViewController: UIViewController, UNNotificationContentExtensi
     
     func didReceive(_ notification: UNNotification) {
 //        self.label?.text = notification.request.content.body
-        
+//        let userInfo = notification.request.content.userInfo
+//        if let name = userInfo["name"] as? String {
+//            print("Custom data received: \(name)")
+//            self.textLabel?.text = notification.request.content.body
+//        }
         timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: true)
          }
     @objc func updateTimer () {
@@ -47,6 +51,11 @@ class NotificationViewController: UIViewController, UNNotificationContentExtensi
             self.label.text! = "Graffiti graffiti everywhere"
         }
     }
+    
+//    func details () {
+//        let userInfo = notification.request.content.userInfo
+//        print userInfo["userId"]
+//    }
 }
 
 
