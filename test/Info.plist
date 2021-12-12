@@ -13,7 +13,7 @@
 			<key>UNNotificationExtensionUserInteractionEnabled</key>
 			<true/>
 			<key>UNNotificationExtensionInitialContentSizeRatio</key>
-			<real>0.12</real>
+			<integer>1</integer>
 		</dict>
 		<key>NSExtensionMainStoryboard</key>
 		<string>MainInterface</string>

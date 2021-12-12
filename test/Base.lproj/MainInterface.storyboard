@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -13,61 +12,21 @@
             <objects>
                 <viewController id="M4Y-Lb-cyx" userLabel="Notification View Controller" customClass="NotificationViewController" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
-                        <rect key="frame" x="0.0" y="0.0" width="381" height="297"/>
+                        <rect key="frame" x="0.0" y="0.0" width="627" height="477"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JqS-qq-5Sp">
-                                <rect key="frame" x="126.5" y="118" width="128" height="60.5"/>
-                                <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="GcN-lo-r42">
-                                        <rect key="frame" x="20" y="20" width="88" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstItem="GcN-lo-r42" firstAttribute="centerX" secondItem="JqS-qq-5Sp" secondAttribute="centerX" id="7K9-eM-E8l"/>
-                                    <constraint firstItem="GcN-lo-r42" firstAttribute="centerY" secondItem="JqS-qq-5Sp" secondAttribute="centerY" id="CRc-bA-ySg"/>
-                                    <constraint firstItem="GcN-lo-r42" firstAttribute="leading" secondItem="JqS-qq-5Sp" secondAttribute="leading" constant="20" id="fi2-If-iJT"/>
-                                </constraints>
-                            </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZE-jz-0NF">
-                                <rect key="frame" x="126" y="210" width="129" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="2BE-c3-nQJ"/>
                         <color key="backgroundColor" red="0.45882353186607361" green="0.74901962280273438" blue="0.66666668653488159" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="JqS-qq-5Sp" firstAttribute="top" secondItem="2BE-c3-nQJ" secondAttribute="top" constant="74" id="1eW-Q1-z42"/>
-                            <constraint firstItem="uZE-jz-0NF" firstAttribute="centerX" secondItem="JqS-qq-5Sp" secondAttribute="centerX" id="N1I-zU-QlX"/>
-                            <constraint firstItem="JqS-qq-5Sp" firstAttribute="centerX" secondItem="S3S-Oj-5AN" secondAttribute="centerX" id="Ru5-L1-W3X"/>
-                            <constraint firstItem="uZE-jz-0NF" firstAttribute="leading" secondItem="2BE-c3-nQJ" secondAttribute="leading" constant="126" id="Y9c-dX-cTd"/>
-                            <constraint firstItem="uZE-jz-0NF" firstAttribute="top" secondItem="JqS-qq-5Sp" secondAttribute="bottom" constant="31.5" id="eH6-ui-Trq"/>
-                            <constraint firstItem="2BE-c3-nQJ" firstAttribute="bottom" secondItem="JqS-qq-5Sp" secondAttribute="bottom" constant="118.5" id="quU-P8-1Xo"/>
-                            <constraint firstItem="2BE-c3-nQJ" firstAttribute="bottom" secondItem="uZE-jz-0NF" secondAttribute="bottom" constant="53" id="wKn-KU-8l4"/>
-                        </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="381" height="297"/>
+                    <size key="freeformSize" width="627" height="477"/>
                     <connections>
-                        <outlet property="label" destination="GcN-lo-r42" id="lpW-cU-7IG"/>
                         <outlet property="myLabel" destination="S3S-Oj-5AN" id="7WE-65-dSg"/>
-                        <outlet property="textLabel" destination="uZE-jz-0NF" id="AfA-8u-jBW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="110.86956521739131" y="145.64732142857142"/>
+            <point key="canvasLocation" x="289.13043478260875" y="205.91517857142856"/>
         </scene>
     </scenes>
-    <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-    </resources>
 </document>
